@@ -57,7 +57,7 @@ def newCatalog():
     catalog['tags'] = lt.newList('SINGLE_LINKED',
                                  cmpfunction=comparetagnames)
     catalog['book_tags'] = lt.newList('SINGLE_LINKED')
-
+    
     return catalog
 
 
